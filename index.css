@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefae7;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fefae7;
+  padding: 5px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  font-weight: 500;
+}
+
+.login {
+  border: 2px solid #ff5f1f;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.getstarted {
+  background-color: #ff5f1f;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+/* section1 */
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefae7;
+}
+
+.s1-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1-upper-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite-info {
+  background-color: #ff5f1f;
+  color: white;
+  border-radius: 8px;
+  padding: 2px;
+  width: fit-content;
+}
+
+.s1-lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1-lower h2 {
+  margin-bottom: 0px;
+}
+
+.curved-line {
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  height: 25px;
+}
+
+.line2 {
+  color: #ff5f1f;
+}
+
+/* section2 */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefae7;
+  padding: 20px;
+}
+
+.s2-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.video {
+  flex: 1;
+  height: 150px;
+  width: 200px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.s2-info {
+  flex: 1;
+  width: 500px;
+}
+
+.s2-lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.s2-l-l2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.s2-l-l2-content{
+    background-color: #ff5f1f;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    font-size: large;
+
+}
+
+.s2-lower div{
+    margin-bottom: 0px;
+}
+
+
+.s2-l-l1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+.s2-l-l3-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.letter-cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color:#f7f3dd;
+    border-radius: 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+   
+   
+    
+
+}
+
+.letter-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+
+.letter-up-l{
+    flex: 1;
+}
+
+
+.letter-up-r{
+    flex: 1;
+}
+
+.letter-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    justify-content: space-between;
+    padding: 10px;
+
+    
+}
+
+.letter-lo-l{
+    flex: 1;
+}
+
+
+.letter-lo-r{
+    flex: 1;
+}
+
+.highlight {
+     /* Change color as needed */
+    font-weight: bold; /* Or any other styles you prefer */
+}
+
+/* section4 */
+
+.formula{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefae7;
+    padding: 20px;
+    position: relative;
+}
+
+.curved-line2{
+   bottom:5000px;
+}
+
+
+.box {
+    width: 150px; /* Adjust individual box width */
+    height: 100px; /* Adjust individual box height */
+    border: 1px solid #ff5f1f ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.formula-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
